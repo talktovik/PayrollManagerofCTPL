@@ -1,0 +1,6 @@
+C:\PayrollManagerofCTPL\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\PayrollManagerofCTPL\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\PayrollManagerofCTPL\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+C:\PayrollManagerofCTPL\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\PayrollManagerofCTPL\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\PayrollManagerofCTPL\ClassLibrary\obj\Debug\ClassLibrary.pdb

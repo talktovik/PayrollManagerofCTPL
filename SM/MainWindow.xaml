@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SM"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Emoloyee Details" Height="600" Width="800">
     <Grid>
-        
+        <Label Content="Enter Employee Details" FontSize="22" FontFamily="Comic Sans MS" FontStyle="Italic" FontWeight="Black" HorizontalAlignment="Left" Height="57" Margin="279,15,0,0" VerticalAlignment="Top" Width="264"/>
+        <Label Content="Employee Name" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="154,64,0,0" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtempname" HorizontalAlignment="Left" Height="37" Margin="317,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <Label Content="Employee ID" FontSize="18" HorizontalAlignment="Left" Height="36" Margin="154,120,0,0" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtemployeeId" HorizontalAlignment="Left" Height="36" Margin="317,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <Label Content="Attendance ID" FontSize="18" HorizontalAlignment="Left" Height="36" Margin="154,216,0,0" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtattendanceid" HorizontalAlignment="Left" Height="36" Margin="317,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <Label Content="Date Of Joining" FontSize="18" HorizontalAlignment="Left" Height="36" Margin="154,277,0,0" VerticalAlignment="Top" Width="144"/>
+        <DatePicker Name="datepicker" HorizontalAlignment="Left" Height="36" Margin="317,277,0,0" VerticalAlignment="Top" Width="315"/>
+        <Button Content="save" Background="Aqua" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="343,348,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
+        <Button Content="Bank Details" Background="Chocolate" FontSize="20" HorizontalAlignment="Right" Height="46" Margin="0,442,479,0" VerticalAlignment="Top" Width="125" Click="Button_Click_1"/>
+        <Button Content="Personal Details" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="7,442,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_2"/>
+        <Button Content="Attendance Monitor" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="361,442,0,0" VerticalAlignment="Top" Width="202"/>
+        <Button Content="Total Emoloyees" Background="BlanchedAlmond" FontSize="20" HorizontalAlignment="Left" Height="49" Margin="622,8,0,0" VerticalAlignment="Top" Width="162"/>
+        <Button Content="Salary Components" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="606,442,0,0" VerticalAlignment="Top" Width="176"/>
+        <Label Content="Designation" FontSize="18" HorizontalAlignment="Left" Height="36" Margin="154,166,0,0" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtDesignation" HorizontalAlignment="Left" Height="36" Margin="317,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <Label Content="Enter Employee Details" FontSize="22" FontFamily="Comic Sans MS" FontStyle="Italic" FontWeight="Black" HorizontalAlignment="Left" Height="57" Margin="279,15,0,0" VerticalAlignment="Top" Width="264"/>
+
     </Grid>
 </Window>

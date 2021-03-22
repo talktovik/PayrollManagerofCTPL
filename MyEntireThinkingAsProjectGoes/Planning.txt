@@ -1,0 +1,8 @@
+//Class Library creation. 
+First I think I have to Focus on the Most Important Factor which is how to set up the 
+Employee class.
+because there are lot of stuff this class consists and even though it is not very much required 
+only data like Bank Details are required frequently.
+
+
+

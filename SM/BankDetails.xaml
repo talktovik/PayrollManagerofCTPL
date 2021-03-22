@@ -1,0 +1,26 @@
+﻿<Window x:Class="SM.BankDetails"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SM"
+        mc:Ignorable="d"
+        Title="BankDetails" Height="450" Width="800">
+    <Grid>
+        <Label Content="Employee Bank Details" FontSize="22" FontFamily="Comic Sans MS" FontStyle="Italic" FontWeight="Black" HorizontalAlignment="Left" Height="57" Margin="279,15,0,0" VerticalAlignment="Top" Width="264"/>
+        <Label Content="Employee ID" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="154,64,0,0" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtemployeeID" HorizontalAlignment="Left" Height="37" Margin="317,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <Label Content="Account Number" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="148,106,0,0" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="txtAccountNumber" HorizontalAlignment="Left" Height="37" Margin="317,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <Label Content="IFSC DETAILS" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="154,148,0,0" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtifscdetails" HorizontalAlignment="Left" Height="37" Margin="317,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <Label Content="Bank Name" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="154,190,0,0" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtBankName" HorizontalAlignment="Left" Height="37" Margin="317,190,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315" />
+        <Label Content="Employee Name for Bank" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="86,232,0,0" VerticalAlignment="Top" Width="212"/>
+        <TextBox x:Name="TxtNameinBank" HorizontalAlignment="Left" Height="37" Margin="317,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <Label Content="txtPANNumber" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="154,275,0,0" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="TxtPanNumber" HorizontalAlignment="Left" Height="37" Margin="317,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <Button Background="HotPink" Content="Save" HorizontalAlignment="Left" Height="38" Margin="317,342,0,0" VerticalAlignment="Top" Width="206" Click="Button_Click"/>
+
+    </Grid>
+</Window>
