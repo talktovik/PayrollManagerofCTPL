@@ -21,7 +21,7 @@ namespace SM
     /// </summary>
     public partial class BankDetails : Window
     {
-        private MainWindow mainWindow;
+        
         
         public BankDetails()
         {
@@ -41,6 +41,12 @@ namespace SM
             if (res.success)
             {
                 MessageBox.Show("Details Saved");
+                txtAccountNumber.Text = "";
+                txtBankName.Text = "";
+                txtemployeeID.Text = "";
+                txtifscdetails.Text = "";
+                TxtNameinBank.Text = "";
+                TxtPanNumber.Text = "";
                 
             }
             else if (res.isException)

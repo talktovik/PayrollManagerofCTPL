@@ -31,7 +31,7 @@ namespace SM
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Button b = e.Source as Button;
+           
             if (txtattendanceid.Text == "" && txtemployeeId.Text == "" && txtempname.Text == "" && txtattendanceid.Text == "")
             {
                 MessageBox.Show("Enter Each Details");
@@ -74,6 +74,12 @@ namespace SM
         {
             PersonalDetails personalDetailsWindow = new PersonalDetails();
             personalDetailsWindow.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            salarycomponents salarycomponentsWindow = new salarycomponents();
+            salarycomponentsWindow.Show();
         }
     }
 }

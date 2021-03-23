@@ -20,3 +20,5 @@ C:\PayrollManagerofCTPL\SM\obj\Debug\PersonalDetails.g.cs
 C:\PayrollManagerofCTPL\SM\obj\Debug\PersonalDetails.baml
 C:\PayrollManagerofCTPL\SM\obj\Debug\BankDetails.g.cs
 C:\PayrollManagerofCTPL\SM\obj\Debug\BankDetails.baml
+C:\PayrollManagerofCTPL\SM\obj\Debug\salarycomponents.g.cs
+C:\PayrollManagerofCTPL\SM\obj\Debug\salarycomponents.baml
