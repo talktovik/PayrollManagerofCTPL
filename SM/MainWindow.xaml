@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Emoloyee Details" Height="600" Width="800">
     <Grid Background="AliceBlue">
-        <Label Content="Enter Employee Details" FontSize="22" FontFamily="Comic Sans MS" FontStyle="Italic" FontWeight="Black" HorizontalAlignment="Left" Height="57" Margin="285,7,0,0" VerticalAlignment="Top" Width="264"/>
+        <Label Content="Enter Employee Details" FontSize="22" FontFamily="Comic Sans MS" FontStyle="Italic" FontWeight="Black" HorizontalAlignment="Left" Height="57" Margin="7,7,0,0" VerticalAlignment="Top" Width="264"/>
         <Label Content="Employee Name" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="154,64,0,0" VerticalAlignment="Top" Width="144"/>
         <TextBox x:Name="txtempname" HorizontalAlignment="Left" Height="37" Margin="317,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
         <Label Content="Employee ID" FontSize="18" HorizontalAlignment="Left" Height="36" Margin="154,120,0,0" VerticalAlignment="Top" Width="144"/>
@@ -16,16 +16,18 @@
         <TextBox x:Name="txtattendanceid" HorizontalAlignment="Left" Height="36" Margin="317,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
         <Label Content="Date Of Joining" FontSize="18" HorizontalAlignment="Left" Height="36" Margin="154,277,0,0" VerticalAlignment="Top" Width="144"/>
         <DatePicker Name="datepicker" HorizontalAlignment="Left" Height="36" Margin="317,277,0,0" VerticalAlignment="Top" Width="315"/>
-        <Grid>
-        <Button Content="save" Background="Aqua" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="343,348,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
-        <Button Content="Bank Details" Background="Chocolate" FontSize="20" HorizontalAlignment="Right" Height="46" Margin="0,450,177.6,0" VerticalAlignment="Top" Width="176" Click="Button_Click_1"/>
-        <Button Content="Personal Details" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="179,450,0,0" VerticalAlignment="Top" Width="202" Click="Button_Click_2"/>
-        <Button Content="Attendance Monitor" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="179,508,0,0" VerticalAlignment="Top" Width="202"/>
-        <Button Content="Total Emoloyees" Background="BlanchedAlmond" FontSize="20" HorizontalAlignment="Left" Height="49" Margin="622,8,0,0" VerticalAlignment="Top" Width="162"/>
-        <Button Content="Salary Components" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="440,508,0,0" VerticalAlignment="Top" Width="176" Click="Button_Click_3"/>
+        <Grid Margin="2,0,-2,0">
+            <Button Content="save" Background="Aqua" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="343,348,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
+            <Button Content="Bank Details" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="400,450,0,0" VerticalAlignment="Top" Width="176" Click="Button_Click_1"/>
+            <Button Content="Personal Details" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="179,450,0,0" VerticalAlignment="Top" Width="202" Click="Button_Click_2"/>
+            <Button Content="Attendance Monitor" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="179,508,0,0" VerticalAlignment="Top" Width="202"/>
+            <Button Content="Import Excel" Background="BlanchedAlmond" FontSize="20" HorizontalAlignment="Left" Height="49" Margin="622,8,0,0" VerticalAlignment="Top" Width="162" Click="Button_Click_4"/>
+            <Button Content="Salary Components" Background="Chocolate" FontSize="20" HorizontalAlignment="Left" Height="46" Margin="400,508,0,0" VerticalAlignment="Top" Width="176" Click="Button_Click_3"/>
+            <Button x:Name="btnSelectthepath" Content="..." HorizontalAlignment="Left" Height="47" Margin="576,6,0,0" VerticalAlignment="Top" Width="41" Click="btnSelectthepath_Click"/>
         </Grid>
         <Label Content="Designation" FontSize="18" HorizontalAlignment="Left" Height="36" Margin="154,166,0,0" VerticalAlignment="Top" Width="144"/>
         <TextBox x:Name="txtDesignation" HorizontalAlignment="Left" Height="36" Margin="317,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="315"/>
+        <TextBox x:Name="txtpathofemployee" HorizontalAlignment="Left" Height="23" Margin="368,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206"/>
 
 
     </Grid>

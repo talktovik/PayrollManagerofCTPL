@@ -1,0 +1,20 @@
+﻿<Window x:Class="SM.FrontPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SM"
+        mc:Ignorable="d"
+        Title="FrontPage" Height="450" Width="800">
+    <Grid>
+        <Label Content="Modern SM" FontSize="22" FontFamily="Microsoft Sans seriff" FontStyle="Italic" FontWeight="Black" HorizontalAlignment="Left" Height="39" Margin="323,3,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button Content="Generate Salary" Background="GreenYellow" HorizontalAlignment="Left" Height="40" Margin="618,8,0,0" VerticalAlignment="Top" Width="169" Click="Button_Click_1"/>
+        <Button Content="Salary Analysis" Background="Gainsboro" HorizontalAlignment="Left" Height="40" Margin="618,64,0,0" VerticalAlignment="Top" Width="169"/>
+        <Button Content="Add New Employee" Background="PowderBlue" HorizontalAlignment="Left" Height="40" Margin="618,117,0,0" VerticalAlignment="Top" Width="169" Click="Button_Click"/>
+        <Button Content="Pre Salary analysis (Bird View)" Background="IndianRed" HorizontalAlignment="Left" Height="40" Margin="618,172,0,0" VerticalAlignment="Top" Width="169"/>
+        <Button Content="Generate Salary Slips" Background="Azure" HorizontalAlignment="Left" Height="40" Margin="618,227,0,0" VerticalAlignment="Top" Width="169"/>
+        <Button Content="More File Generation" Background="WhiteSmoke" HorizontalAlignment="Left" Height="40" Margin="618,281,0,0" VerticalAlignment="Top" Width="169"/>
+        <Button Content="More File Generation" Background="WhiteSmoke" HorizontalAlignment="Left" Height="40" Margin="618,337,0,0" VerticalAlignment="Top" Width="169"/>
+
+    </Grid>
+</Window>

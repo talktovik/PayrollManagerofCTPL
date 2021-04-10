@@ -8,16 +8,18 @@ namespace ClassLibrary.MainClasses
 {
     public class SalaryComponents
     {
-        public int basic_plus_DA { get; set; }
-        public int bonus { get; set; }
+        public int employeeID { get; set; }
+        public string employeeName { get; set; }
+        public int basic_plus_DA1{ get; set; }
+        public int bonus1 { get; set; }
         public int hra { get; set; }
-        public int conveyance { get; set; }
-        public int productionIncentive { get; set; }
+        public int conveyance1 { get; set; }
+        public int productionIncentive1 { get; set; }
         public int food { get; set; }
         public int allowance1 { get; set; }
         public int allowance2 { get; set; }
         public int cea { get; set; }
-        public int ot { get; set; }
+        public int ot_hours { get; set; }
         public int commitment_allowance { get; set; }
         public int attendance_bonus { get; set; }
         public int grossSalary { get; set; }
@@ -44,7 +46,7 @@ namespace ClassLibrary.MainClasses
         public int accrued_savings { get; set; }
         public int severance_pakage { get; set; }
         public int takeHome { get; set; }
-        public int savings_income { get; set; }
+        public int savings_salary { get; set; }
         public int net_salary { get; set; }
         public int ctc { get; set; }
         public int optforpf { get; set; }
@@ -83,6 +85,8 @@ namespace ClassLibrary.MainClasses
         public int late_attendence_relaxation { get; set; }
         public int total_Late_Attendance_debit { get; set; }
         public int early_attendance_bonus { get; set; }
+        public int number_of_availableWorkingDays { get; set; }
+        public int earned_leave_credit2{ get; set; }
 
 
     }

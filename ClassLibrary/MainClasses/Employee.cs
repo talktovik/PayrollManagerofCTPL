@@ -12,6 +12,7 @@ namespace ClassLibrary.MainClasses
         public string employeeName { get; set; }
         public int attandanceID { get; set; }
         public int employeeidGivenByCompany { get; set; }
+        public string employeeNameToshow { get; set; }
         public string designation { get; set; }
         public DateTime joiningDate { get; set; } 
         public PersonalDetails personalDetails { get; set; }

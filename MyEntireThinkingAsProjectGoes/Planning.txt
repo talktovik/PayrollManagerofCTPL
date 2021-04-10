@@ -7,4 +7,11 @@ only data like Bank Details are required frequently.
 I have to make a dataLayer.
 
 I have to create a Response Class.
+Now What we can do is We can look at those table and calculate the
+salary via given by excel
+
+I already have attendane module so no worry. 
+I will simple take the code and impliment it here.
+wallah created
+
 

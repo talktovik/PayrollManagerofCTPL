@@ -5,78 +5,268 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SM"
         mc:Ignorable="d"
-        Title="Employee Salary Components" Height="600" Width="800">
+        Title="Employee Salary Components" Height="650" Width="1200">
     <Grid>
-        <ScrollBar HorizontalAlignment="Left" Height="420" Margin="775,0,0,0" VerticalAlignment="Top" Width="8"/>
-        <Label Content="Employee Salary Components" FontSize="22" FontFamily="Comic Sans MS" FontStyle="Italic" FontWeight="Black" HorizontalAlignment="Left" Height="47" Margin="16,0,0,0" VerticalAlignment="Top" Width="321"/>
-        <Label Content="Basic+DA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,64,0,0" Width="89"/>
-        <TextBox x:Name="txtbasicplusda" HorizontalAlignment="Left" Height="26" Margin="136,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Bonus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,112,0,0" Width="89"/>
-        <TextBox x:Name="txtBonus" HorizontalAlignment="Left" Height="26" Margin="136,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="HRA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,205,0,0" Width="89"/>
-        <TextBox x:Name="txthra" HorizontalAlignment="Left" Height="26" Margin="136,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
-        <Label Content="Conveyance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,158,0,0" Width="89" RenderTransformOrigin="0.393,2.596"/>
-        <TextBox x:Name="txtConveyance" HorizontalAlignment="Left" Height="26" Margin="136,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Production Incentive" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,242,0,0" Width="120"/>
-        <TextBox x:Name="txtproductionIncentive" HorizontalAlignment="Left" Height="26" Margin="136,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Food" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,286,0,0" Width="89"/>
-        <TextBox x:Name="txtfood" HorizontalAlignment="Left" Height="26" Margin="136,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="CEA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,379,0,0" Width="89"/>
-        <TextBox x:Name="txtCEA" HorizontalAlignment="Left" Height="26" Margin="136,379,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
-        <Label Content="OverTime" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,332,0,0" Width="89" RenderTransformOrigin="0.393,2.596"/>
-        <TextBox x:Name="txtOvertime" HorizontalAlignment="Left" Height="26" Margin="136,332,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Ptax Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,58,0,0" Width="89"/>
-        <TextBox x:Name="txtptaxDebits" HorizontalAlignment="Left" Height="26" Margin="526,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="2.382,0.712"/>
-        <Label Content="TDS Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,102,0,0" Width="89"/>
-        <TextBox x:Name="txttdsDebits" HorizontalAlignment="Left" Height="26" Margin="526,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Base And HRA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,205,0,0" Width="89"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="526,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
-        <Label Content="Other Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,158,0,0" Width="89" RenderTransformOrigin="0.393,2.596"/>
-        <TextBox x:Name="txtOtherDebits" HorizontalAlignment="Left" Height="26" Margin="526,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Total Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,242,0,0" Width="89" RenderTransformOrigin="1.86,-0.038"/>
-        <TextBox x:Name="txtTotaldebits" HorizontalAlignment="Left" Height="26" Margin="526,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="ESI Employer Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="406,286,0,0" Width="115"/>
-        <TextBox x:Name="txtESIemployerCredit" HorizontalAlignment="Left" Height="26" Margin="526,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="3.227,1.038"/>
-        <Label Content="Mobile Phone Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="389,379,0,0" Width="132"/>
-        <TextBox x:Name="txtmobilephoneCredit" HorizontalAlignment="Left" Height="26" Margin="526,379,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
-        <Label Content="PF Employer Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="410,332,0,0" Width="111" RenderTransformOrigin="0.393,2.596"/>
-        <TextBox x:Name="txtpfEmployerCredit" HorizontalAlignment="Left" Height="26" Margin="526,332,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Commitment Allowance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="196,66,0,0" Width="141"/>
-        <TextBox x:Name="txtcommitmentAllowance" HorizontalAlignment="Left" Height="26" Margin="333,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Attendance Bonus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="204,112,0,0" Width="114"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="332,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Allowance(Daily Report)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="196,205,0,0" Width="137" RenderTransformOrigin="0.449,-0.135"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="333,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
-        <Grid Margin="0,0,0,0">
-            <Label Content="EMPLOYEE ID" Background="AliceBlue" FontFamily="sans sarif" FontWeight="ExtraBlack" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="374,7,0,0" Width="90"/>
-            <TextBox  HorizontalAlignment="Left" Height="23" Margin="476,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="92"/>
-            <Button Content="SAVE" HorizontalAlignment="Left" Height="42" Background="Tan" Margin="585,5,0,0" VerticalAlignment="Top" Width="84"/>
-        </Grid>
-        <Label Content="Gross Salary"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="214,158,0,0" Width="89" RenderTransformOrigin="0.393,2.596"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="334,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="3.064,0.654"/>
-        <Label Content="Allowance 4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="221,242,0,0" Width="89"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="319,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" />
-        <Label Content="Allowance 5(phone)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="196,286,0,0" Width="118"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="319,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="PF Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="221,379,0,0" Width="89"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="319,379,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
-        <Label Content="Allowance 6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="221,332,0,0" Width="89" RenderTransformOrigin="0.393,2.596"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="319,332,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Canteen Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="618,58,0,0" Width="90"/>
-        <TextBox x:Name="txtCanteenCredit" HorizontalAlignment="Left" Height="26" Margin="716,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="2.382,0.712"/>
-        <Label Content="Earned Leaved Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,102,0,0" Width="125"/>
-        <TextBox x:Name="txtEarnedleavecredit" HorizontalAlignment="Left" Height="26" Margin="716,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Medical Insurance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="601,205,0,0" Width="107"/>
-        <TextBox x:Name="txtMedicalInsurance" HorizontalAlignment="Left" Height="26" Margin="716,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
-        <Label Content="Gratuity" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="605,158,0,0" Width="89" RenderTransformOrigin="0.393,2.596"/>
-        <TextBox x:Name="txtGratuity" HorizontalAlignment="Left" Height="26" Margin="716,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Accidental Insurance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,242,0,0" Width="121" RenderTransformOrigin="1.86,-0.038"/>
-        <TextBox x:Name="txtAccidentalInsurance" HorizontalAlignment="Left" Height="26" Margin="716,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
-        <Label Content="Total Other Credits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="595,286,0,0" Width="113"/>
-        <TextBox x:Name="txtTotalOtherCredits" HorizontalAlignment="Left" Height="26" Margin="716,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="3.227,1.038"/>
-        <Label  Content="Accrued Deposit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="605,379,0,0" Width="103"/>
-        <TextBox x:Name="txtAccruedDeposit" HorizontalAlignment="Left" Height="26" Margin="716,379,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
-        <Label Content="Accrued Savings" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="605,332,0,0" Width="103" RenderTransformOrigin="0.393,2.596"/>
-        <TextBox x:Name="txtaccruedSaving" HorizontalAlignment="Left" Height="26" Margin="716,332,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+
+        <ScrollViewer RenderTransformOrigin="0.48,0.514">
+            <Grid>
+                <Grid Margin="0,0,0,0">
+                    <Label Content="EMPLOYEE ID" Background="AliceBlue" FontFamily="sans sarif" FontWeight="ExtraBlack" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="319,7,0,0" Width="90"/>
+                    <TextBox x:Name="txtEmployeeID"  HorizontalAlignment="Left" Height="23" Margin="476,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="92"/>
+                    <Button Content="SAVE" HorizontalAlignment="Left" Height="28" Background="Tan" Margin="673,5,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click"/>
+                    <Button  Content="CALCULATE" HorizontalAlignment="Left" Height="28" Background="DarkSalmon" Margin="573,5,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_1" />
+                    <ComboBox x:Name="cmbEmployees" HorizontalAlignment="Left" Height="23" Margin="414,10,0,0" VerticalAlignment="Top" Width="154" SelectionChanged="cmbEmployeeName_SelectionChanged"/>
+                    <Button  Content="Refresh" HorizontalAlignment="Left" Height="28" Background="LightBlue" Margin="524,38,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_2" RenderTransformOrigin="0.476,0.536" />
+
+                </Grid>
+                <CheckBox Content="OPT for PF" x:Name="checkoptforpf" HorizontalAlignment="Left" Margin="319,56,0,0" VerticalAlignment="Top" Width="90" Height="19"/>
+                <CheckBox Content="OPT for ESI" x:Name="checkoptforesi" HorizontalAlignment="Left" Margin="433,56,0,0" VerticalAlignment="Top" Width="93" Height="19"/>
+                <Label FontWeight="DemiBold" Content="Gross Salary Details" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,74,0,0" Width="120"/>
+                <Label Content="Basic + DA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,105,0,0" Width="69"/>
+                <Label Content="Bonus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,131,0,0" Width="56"/>
+                <Label Content="HRA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,157,0,0" Width="56"/>
+                <Label Content="Conveyance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,183,0,0" Width="79"/>
+                <Label Content="Production Incentive" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,214,0,0" Width="123"/>
+                <Label Content="Food" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,245,0,0" Width="39"/>
+                <Label FontSize="9" Content="Company Revenue LTD Allow" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,274,0,0" Width="127"/>
+                <Label Content="Out Station Allow" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,299,0,0" Width="107"/>
+                <Label Content="Daily Report Allow" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,325,0,0" Width="107"/>
+                <Label Content="Special Allow" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,356,0,0" Width="91"/>
+                <Label Content="Allowance 5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,387,0,0" Width="91"/>
+                <Label Content="CEA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,413,0,0" Width="56"/>
+                <Label FontSize="10" Content="OT Rate(In Rs per Hour)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,444,0,0" Width="120"/>
+                <Label FontSize="11" Content="Commitment Allowance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,470,0,0" Width="129"/>
+                <Label Content="Attendance Bonus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,501,0,0" Width="110"/>
+                <Label Content="Gross Salary" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,527,0,0" Width="110"/>
+                <Label FontSize="10" Content="Minimum OT hours" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,561,0,0" Width="110"/>
+                <TextBox x:Name="txtBasicplusDA" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,107,0,0"/>
+                <TextBox x:Name="txtBonus" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,133,0,0"/>
+                <TextBox x:Name="txtHRA" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,160,0,0"/>
+                <TextBox x:Name="txtConveyance" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,188,0,0"/>
+                <TextBox x:Name="txtProductionIncentive" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,218,0,0"/>
+                <TextBox x:Name="txtFood" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,249,0,0"/>
+                <TextBox x:Name="txtCompanyRevenueLtd" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,275,0,0"/>
+                <TextBox x:Name="txtoutstationAllow" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,302,0,0"/>
+                <TextBox x:Name="txtdailyAllow" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,330,0,0"/>
+                <TextBox x:Name="txtspecialallow" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,360,0,0"/>
+                <TextBox x:Name="txtAllowance5" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,391,0,0"/>
+                <TextBox x:Name="txtCEA" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,417,0,0"/>
+                <TextBox x:Name="txtOvertimeRate" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,446,0,0"/>
+                <TextBox x:Name="txtCommitmentAllowance" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,474,0,0"/>
+                <TextBox x:Name="txtAttendanceBonus" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,505,0,0"/>
+                <TextBox x:Name="txtGrossSalary" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,537,0,0"/>
+                <TextBox x:Name="txtMinimumOtHours" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,563,0,0"/>
+                <Label Content="ESI Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="285,105,0,0" Width="74"/>
+                <Label FontWeight="DemiBold" Content="Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="299,74,0,0" Width="73"/>
+                <TextBox x:Name="txtPfDebits" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,133,0,0"/>
+                <Label Content="PF Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="285,129,0,0" Width="74"/>
+                <TextBox x:Name="txtPtaxDebits" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,160,0,0"/>
+                <Label Content="PTAX_Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="285,157,0,0" Width="74"/>
+                <TextBox x:Name="txtTDSDebits" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,188,0,0" RenderTransformOrigin="0.475,0.565"/>
+                <Label Content="TDS Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="285,183,0,0" Width="74"/>
+                <TextBox x:Name="txtOtherDebits" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,218,0,0"/>
+                <Label Content="Other Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="285,214,0,0" Width="87"/>
+                <Label FontSize="9" Content="Late Attendance Debit Rate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,245,0,0" Width="121"/>
+                <Label Content="Total Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="285,275,0,0" Width="74"/>
+                <TextBox x:Name="txtLateAttendanceDebitRate" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,248,0,0"/>
+                <TextBox x:Name="txtEsiDebits" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,107,0,0"/>
+                <TextBox x:Name="txtTotalDebits" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,275,0,0"/>
+                <Label FontWeight="DemiBold" Content="Other Credits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="286,301,0,0" Width="95"/>
+                <Label FontSize="10" Content="ESI Employer Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="286,332,0,0" Width="114"/>
+                <TextBox x:Name="txtESIEmployerCredit" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,334,0,0"/>
+                <Label FontSize="10" Content="PF Employer Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,360,0,0" Width="114"/>
+                <Label FontSize="10" Content="Mobile phone Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,391,0,0" Width="114"/>
+                <Label FontSize="10" Content="Canteen Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,415,0,0" Width="93"/>
+                <Label FontSize="10" Content="Earned Leave Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,443,0,0" Width="102"/>
+                <Label FontSize="10" Content="Gratuity" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,474,0,0" Width="60"/>
+                <Label FontSize="10" Content="Medical Insurance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,505,0,0" Width="93"/>
+                <Label FontSize="10" Content="Early Attendance Bonus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,561,0,0" Width="114"/>
+                <Label FontSize="10" Content="Accident Insurance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,533,0,0" Width="114"/>
+                <Label FontSize="10" Content="Total Other Credits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,589,0,0" Width="114"/>
+                <TextBox  x:Name="txtPFEmployerCredit" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,362,0,0"/>
+                <TextBox x:Name="txtMobileCredit"  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,393,0,0"/>
+                <TextBox x:Name="txtCanteenCredit" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,418,0,0"/>
+                <TextBox x:Name="txtEarnedLeavecredit" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,446,0,0"/>
+                <TextBox x:Name="txtGratuity" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,472,0,0"/>
+                <TextBox x:Name="txtMedicalInsurance" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,505,0,0"/>
+                <TextBox x:Name="txtAccidentInsurance" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,533,0,0"/>
+                <TextBox x:Name="txtEarlyAttendanceBonus" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,563,0,0"/>
+                <TextBox x:Name="txttotalOtherCredits" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="405,591,0,0"/>
+                <Label FontWeight="DemiBold" Content="Others" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="583,74,0,0" Width="60"/>
+                <Label Content="Serverance Package" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="565,103,0,0" Width="116"/>
+                <TextBox x:Name="txtSeverancePackage" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="721,107,0,0"/>
+                <Label Content="Take home = Net Salary + EL - severance Package" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="578,142,0,0" Width="275"/>
+                <Label Content="Take Home" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="591,170,0,0" Width="78"/>
+                <TextBox x:Name="txtTakeHome" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="721,170,0,0"/>
+                <Label Content="Savings Income = PF(Employer Count)+ Gratuity " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="574,201,0,0" Width="275"/>
+                <Label Content="Saving Salary" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="591,232,0,0" Width="90"/>
+                <Label Content="CTC = GS + Total Other Credits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="573,332,0,0" Width="176"/>
+                <Label Content="Net Salary" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="591,302,0,0" Width="66"/>
+                <TextBox x:Name="txtnetsalary" IsEnabled="False"  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="721,302,0,0"/>
+                <TextBox x:Name="txtsavingsalary" IsEnabled="False"  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="721,236,0,0" />
+                <Label Content="Net Salary = GS - Total Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="565,264,0,0" Width="275"/>
+                <Label Content="CTC" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="591,364,0,0" Width="52"/>
+                <TextBox x:Name="txtctc" IsEnabled="False"  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="720,362,0,0"/>
+                <Label FontSize="10" Content="Allowance Mobile" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,591,0,0" Width="110"/>
+                <TextBox x:Name="txtMobileAllowance" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="141,591,0,0"/>
+
+                <!--<Label Content="Employee Salary Components" FontSize="22" FontFamily="Comic Sans MS" FontStyle="Italic" FontWeight="Black" HorizontalAlignment="Left" Height="47" Margin="16,0,0,0" VerticalAlignment="Top" Width="321"/>
+                <Label Content="Basic+DA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,68,0,0" Width="89"/>
+                <TextBox x:Name="txtbasicplusda1" HorizontalAlignment="Left" Height="26" Margin="104,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label Content="Bonus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,105,0,0" Width="55"/>
+                <TextBox x:Name="txtBonus1" HorizontalAlignment="Left" Height="26" Margin="105,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="HRA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,178,0,0" Width="46"/>
+                <TextBox x:Name="txtzhra" HorizontalAlignment="Left" Height="26" Margin="104,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.491,0.538"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Conveyance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,143,0,0" Width="87" RenderTransformOrigin="0.393,2.596"/>
+                <TextBox x:Name="txtzConveyance1" HorizontalAlignment="Left" Height="26" Margin="104,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Production Incentive" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,218,0,0" Width="137"/>
+                <TextBox x:Name="txtzproductionIncentive1" HorizontalAlignment="Left" Height="26" Margin="157,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Food" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,259,0,0" Width="60"/>
+                <TextBox x:Name="txtzfood" HorizontalAlignment="Left" Height="26" Margin="105,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.891,1"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="CEA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,338,0,0" Width="43"/>
+                <TextBox x:Name="txtzCEA" HorizontalAlignment="Left" Height="26" Margin="105,338,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.473,0.538"/>
+                <Label Content="OverTime" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,294,0,0" Width="70" RenderTransformOrigin="0.393,2.596"/>
+                <TextBox  x:Name="txtOvertime" HorizontalAlignment="Left" Height="26" Margin="105,294,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Ptax Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,776,0,0" Width="89"/>
+                <TextBox x:Name="txtzptaxDebits" HorizontalAlignment="Left" Height="26" Margin="355,776,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="2.382,0.712"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="TDS Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="216,807,0,0" Width="89"/>
+                <TextBox x:Name="txtztdsDebits" HorizontalAlignment="Left" Height="26" Margin="355,807,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label Content="Base And HRA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,158,0,0" Width="89"/>
+                <TextBox HorizontalAlignment="Left" Height="26" Margin="526,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Other Debits" FontWeight="Heavy" Background="SkyBlue" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,112,0,0" Width="89" RenderTransformOrigin="0.393,2.596"/>
+                <TextBox x:Name="txtzOtherDebits" HorizontalAlignment="Left" Height="26" Margin="526,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label Content="Total Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,196,0,0" Width="89" RenderTransformOrigin="1.86,-0.038"/>
+                <TextBox x:Name="txtTotaldebits" HorizontalAlignment="Left" Height="26" Margin="526,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,0.462"/>
+                <Label Content="ESI Employer Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="411,236,0,0" Width="124" RenderTransformOrigin="0.478,0.538"/>
+                <TextBox x:Name="txtESIemployerCredit" HorizontalAlignment="Left" Height="26" Margin="526,236,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="3.227,1.038"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" FontSize="10" Content="Mobile Phone Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="413,318,0,0" Width="113"/>
+                <TextBox x:Name="txtzmobilephoneCredit" HorizontalAlignment="Left" Height="26" Margin="526,318,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontSize="10" FontWeight="Heavy" Background="SkyBlue" Content="PF Employer Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,277,0,0" Width="111" RenderTransformOrigin="0.393,2.596"/>
+                <TextBox x:Name="txtzpfEmployerCredit" HorizontalAlignment="Left" Height="26" Margin="526,277,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label Content="Commitment Allowance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="213,104,0,0" Width="141"/>
+                <TextBox x:Name="txtcommitmentAllowance" HorizontalAlignment="Left" Height="26" Margin="355,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label Content="Attendance Bonus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="223,151,0,0" Width="114" RenderTransformOrigin="0.658,0.538"/>
+                <TextBox x:Name="txtattendanceBonus" HorizontalAlignment="Left" Height="26" Margin="355,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label Content="Allowance3 (Daily Report)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,838,0,0" Width="148" RenderTransformOrigin="0.449,-0.135"/>
+                <TextBox x:Name="txtAllowance3dailyreport" HorizontalAlignment="Left" Height="26" Margin="156,838,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+
+                <Label Content="Gross Salary"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="235,193,0,0" Width="89" RenderTransformOrigin="0.393,2.596"/>
+                <TextBox  x:Name="txtgrossSalary" HorizontalAlignment="Left" Height="26" Margin="355,191,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="3.064,0.654"/>
+                <Label Content="Allowance 4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="236,231,0,0" Width="89"/>
+                <TextBox x:Name="txtallowance4" HorizontalAlignment="Left" Height="26" Margin="355,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" />
+                <Label Content="Allowance 5(phone)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="221,269,0,0" Width="124"/>
+                <TextBox x:Name="txtallowance55" HorizontalAlignment="Left" Height="26" Margin="355,269,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label Content="PF Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="236,344,0,0" Width="89"/>
+                <TextBox x:Name="txtpfDebits"  HorizontalAlignment="Left" Height="26" Margin="355,344,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Allowance 6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,307,0,0" Width="89" RenderTransformOrigin="0.393,2.596"/>
+                <TextBox x:Name="txtallowance6" HorizontalAlignment="Left" Height="26" Margin="355,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Canteen Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="422,390,0,0" Width="104"/>
+                <TextBox x:Name="txtzCanteenCredit" HorizontalAlignment="Left" Height="26" Margin="526,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="2.382,0.712"/>
+                <Label Background="SkyBlue" Content="Earned Leaved Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="586,110,0,0" Width="125"/>
+                <TextBox x:Name="txtzEarnedleavecredit" HorizontalAlignment="Left" Height="26" Margin="716,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Medical Insurance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="410,474,0,0" Width="116"/>
+                <TextBox x:Name="txtzMedicalInsurance" HorizontalAlignment="Left" Height="26" Margin="526,474,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Gratuity" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,434,0,0" Width="75" RenderTransformOrigin="0.393,2.596"/>
+                <TextBox x:Name="txtzGratuity" HorizontalAlignment="Left" Height="26" Margin="526,434,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Accidental Insurance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="583,158,0,0" Width="133" RenderTransformOrigin="1.86,-0.038"/>
+                <TextBox x:Name="txtzAccidentalInsurance" HorizontalAlignment="Left" Height="26" Margin="716,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label Content="Total Other Credits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="598,196,0,0" Width="113"/>
+                <TextBox x:Name="txtTotalOtherCredits" HorizontalAlignment="Left" Height="26" Margin="716,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="3.227,1.038"/>
+                <Label FontWeight="Heavy" Background="SkyBlue"  Content="Accrued Deposit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="413,536,0,0" Width="113"/>
+                <TextBox x:Name="txtzAccruedDeposit" HorizontalAlignment="Left" Height="26" Margin="526,536,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Accrued Savings" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,505,0,0" Width="111" RenderTransformOrigin="0.393,2.596"/>
+                <TextBox x:Name="txtzaccruedSaving" HorizontalAlignment="Left" Height="26" Margin="526,505,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Severance Package" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,374,0,0" Width="124"/>
+                <TextBox x:Name="txtzserverancePackage"  HorizontalAlignment="Left" Height="26" Margin="157,374,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.455,0.538"/>
+                <Label Content="Take Home" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,410,0,0" Width="77"/>
+                <TextBox x:Name="txttakehome"  HorizontalAlignment="Left" Height="26" Margin="105,410,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.455,0.538"/>
+                <Label Content="Saving Income" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,451,0,0" Width="99"/>
+                <TextBox x:Name="txtsavingIncome"  HorizontalAlignment="Left" Height="26" Margin="105,451,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Net Salary" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,491,0,0" Width="65"/>
+                <TextBox x:Name="txtNetsalary"  HorizontalAlignment="Left" Height="26" Margin="104,491,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.436,0.5"/>
+                <Label Content="CTC" FontWeight="ExtraBold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,534,0,0" Width="41"/>
+                <TextBox x:Name="txtCTC"  HorizontalAlignment="Left" Height="26" Margin="104,532,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.436,0.577"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Opt For ESI" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="232,386,0,0" Width="109"/>
+                <TextBox x:Name="txtzoptforEsi"  HorizontalAlignment="Left" Height="26" Margin="355,387,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Number of Leaves" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,431,0,0" Width="118"/>
+                <TextBox x:Name="txtzNumberofLeaves"  HorizontalAlignment="Left" Height="26" Margin="355,432,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Available working days" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,776,0,0" Width="147"/>
+                <TextBox x:Name="txtznumberofavailableworkingdays" HorizontalAlignment="Left" Height="26" Margin="157,776,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Days Worked" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="228,472,0,0" Width="109"/>
+                <TextBox x:Name="txtznumberofdaysWorked" HorizontalAlignment="Left" Height="26" Margin="349,472,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Hours Worked" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="228,505,0,0" Width="109" RenderTransformOrigin="0.844,0.731"/>
+                <TextBox x:Name="txtzNumberofhoursWorked" HorizontalAlignment="Left" Height="26" Margin="349,505,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.491,0.538"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Overtime" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="426,359,0,0" Width="95"/>
+                <TextBox x:Name="txtzOvertime2"  HorizontalAlignment="Left" Height="26" Margin="526,359,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label  Background="SkyBlue" FontSize="10" Content="Salary Package Allowance 1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="582,321,0,0" Width="131"/>
+                <TextBox x:Name="txtzSalaryPackageAllowance1"  HorizontalAlignment="Left" Height="26" Margin="716,315,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label  Background="SkyBlue" Content="Salary Package Allowance 2" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="580,390,0,0" Width="131"/>
+                <TextBox  x:Name="txtzsalarypackageallowancw2" HorizontalAlignment="Left" Height="26" Margin="716,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label  Background="SkyBlue" FontSize="10" Content="Salary Package Allowance 3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="580,359,0,0" Width="134"/>
+                <TextBox  x:Name="txtzsalaryPackageallowance3" HorizontalAlignment="Left" Height="26" Margin="716,359,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label  Background="SkyBlue" FontSize="10" Content="Salary Package Allowance 4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="583,434,0,0" Width="133"/>
+                <TextBox x:Name="txtzsalarypackageallowance4"  HorizontalAlignment="Left"  Height="26" Margin="716,434,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label  Background="SkyBlue" FontSize="10" Content="Salary Package Allowance 5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="581,236,0,0" Width="139"/>
+                <TextBox x:Name="txtzsalarypackageallowance5"  HorizontalAlignment="Left" Height="26" Margin="716,236,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label  Background="SkyBlue" FontSize="10" Content="Salary Package Allowance 6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="582,277,0,0" Width="134"/>
+                <TextBox x:Name="txtzsalarypackageallowance6"  HorizontalAlignment="Left" Height="26" Margin="716,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Overtime Rate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="418,602,0,0" Width="103"/>
+                <TextBox x:Name="txtzovertimerate"  HorizontalAlignment="Left" Height="26" Margin="526,602,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontSize="10" FontWeight="Heavy" Background="SkyBlue" Content="Number of outstation days" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,633,0,0" Width="148"/>
+                <TextBox x:Name="txtzNumberofoutstationdays"  HorizontalAlignment="Left" Height="26" Margin="571,633,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontSize="10" FontWeight="Heavy" Background="SkyBlue" Content="Number of days in daily report" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,665,0,0" Width="183" RenderTransformOrigin="0.477,0.5"/>
+                <TextBox x:Name="txtzNumberofdaysindailyreport"  HorizontalAlignment="Left" Height="26" Margin="598,665,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Multiplication factor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="418,688,0,0" Width="135"/>
+                <TextBox x:Name="txtzMultiplicationFactor" HorizontalAlignment="Left" Height="26" Margin="556,688,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="33" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Basic + DA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,567,0,0" Width="89"/>
+                <TextBox x:Name="txtzbasicplusdasalarypackage"  HorizontalAlignment="Left" Height="26" Margin="526,567,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Allowance 1 Multiplication" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="418,717,0,0" Width="175"/>
+                <TextBox x:Name="txtzallowance1multiplication" HorizontalAlignment="Left" Height="26" Margin="611,714,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="allowance 4 Multiplication" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,748,0,0" Width="173"/>
+                <TextBox x:Name="txtzallowance4Multiplication"  HorizontalAlignment="Left" Height="26" Margin="611,745,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962" />
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Allowance 5 Multiplication" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,776,0,0" Width="178"/>
+                <TextBox x:Name="txtzallowance5Multiplication"  HorizontalAlignment="Left" Height="26" Margin="610,776,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Allowance 6 Multiplication" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="417,807,0,0" Width="176"/>
+                <TextBox x:Name="txtzallowance6Multiplication" HorizontalAlignment="Left" Height="26" Margin="611,807,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Bonus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,650,0,0" Width="78"/>
+                <TextBox x:Name="txtzbonus2" HorizontalAlignment="Left" Height="26" Margin="355,648,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue"  Content="PF Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,683,0,0" Width="87"/>
+                <TextBox x:Name="txtzPFDebits"  HorizontalAlignment="Left" Height="26" Margin="355,683,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="PtAx Debits " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,714,0,0" Width="109"/>
+                <TextBox x:Name="txtptaxdebits1"  HorizontalAlignment="Left" Height="26" Margin="355,714,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="PF Employer Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="217,745,0,0" Width="116"/>
+                <TextBox x:Name="txtpfemployerCredit1"  HorizontalAlignment="Left" Height="26" Margin="355,745,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Earned Leave Credit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="226,536,0,0" Width="116"/>
+                <TextBox x:Name="txtEarnedLeaveCredit1"  HorizontalAlignment="Left" Height="26" Margin="352,536,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Gratuity" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,681,0,0" Width="75"/>
+                <TextBox x:Name="txtgratuity1"  HorizontalAlignment="Left" Height="26" Margin="100,684,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.455,0.462"/>
+                <Label Content="Conveyance" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="237,584,0,0" Width="89"/>
+                <TextBox x:Name="txtConveyance2"  HorizontalAlignment="Left" Height="26" Margin="349,584,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontSize="10" FontWeight="Heavy" Background="SkyBlue"  Content="Production Incentive" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,806,0,0" Width="118"/>
+                <TextBox x:Name="txtProductionIncentiveAutoCalulate" HorizontalAlignment="Left" Height="26" Margin="156,807,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Early Attendance Bonus salary Package" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="217,838,0,0" Width="216"/>
+                <TextBox x:Name="txtearlyAttendanceBonusSalarypackage"  HorizontalAlignment="Left" Height="26" Margin="449,838,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Late Attendance Debit Rate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,572,0,0" Width="155"/>
+                <TextBox   x:Name="txtLateattendancedebitrate" HorizontalAlignment="Left" Height="26" Margin="157,572,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Late by days" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,616,0,0" Width="75"/>
+                <TextBox  x:Name="txtlatebydays" HorizontalAlignment="Left" Height="26" Margin="102,616,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Late Attendance Relaxation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,650,0,0" Width="155"/>
+                <TextBox  x:Name="txtlateAttendaceRelaxation" HorizontalAlignment="Left" Height="26" Margin="157,651,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Total Late Attendance Debit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-1,714,0,0" Width="158"/>
+                <TextBox x:Name="txtTotalLateAttendencedebit" HorizontalAlignment="Left" Height="26" Margin="157,714,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Early Attendance Bonus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1,745,0,0" Width="151"/>
+                <TextBox x:Name="txtEarlyAttendanceBonus"  HorizontalAlignment="Left" Height="26" Margin="157,745,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label Content="Allowance 1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="232,68,0,0" Width="109"/>
+                <TextBox x:Name="txtAllowance1" HorizontalAlignment="Left" Height="26" Margin="355,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label Content="Allowance 2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="422,81,0,0" Width="88"/>
+                <TextBox x:Name="txtAllowance2" HorizontalAlignment="Left" Height="26" Margin="527,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+                <Label  Content="ESI Debits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="586,472,0,0" Width="87"/>
+                <TextBox x:Name="txtESIdebits"  HorizontalAlignment="Left"  Height="26" Margin="716,472,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>
+                <Label FontWeight="Heavy" Background="SkyBlue" Content="Opt For PF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="586,503,0,0" Width="109"/>
+                <TextBox x:Name="txtzoptforpf"  HorizontalAlignment="Left" Height="26" Margin="716,505,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.527,2.962"/>-->
+            </Grid>
+
+        </ScrollViewer>
+        <Label FontSize="15" Background="LightPink" Content="Gross Salary Details" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,6,0,0"/>
     </Grid>
 </Window>
