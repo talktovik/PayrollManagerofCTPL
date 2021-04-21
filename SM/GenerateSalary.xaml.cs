@@ -642,7 +642,7 @@ namespace SM
                         SalaryComponents salarycomponents = (SalaryComponents)res.body;
                         salarycomponents.number_of_Hours_worked =  (int)totalWorkDuration;
                         salarycomponents.number_of_days_worked = (int)present;
-                        salarycomponents.numberofLeaves = (int)absent;
+                        salarycomponents.numberofLeaves = (int)absent  ;
                         salarycomponents.latebydays = (int)Latebydays;
                         Datalayer dla = new Datalayer();
                         Response response = dla.UpdateSalaryComponentsofEmployees(salarycomponents);
