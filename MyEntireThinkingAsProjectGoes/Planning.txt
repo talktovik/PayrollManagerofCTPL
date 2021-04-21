@@ -14,4 +14,5 @@ I already have attendane module so no worry.
 I will simple take the code and impliment it here.
 wallah created
 
-
+So now I Have to add the data which I could Get from the Attendance Module and Thus Have to come up data to intrigate that as well.
+Even Version 1 is working fine.
